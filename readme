@@ -1,0 +1,13 @@
+Questo codice è un tentativo di predire le classi benigno, maligno, normale in un'ecografia di lesioni nel seno.
+
+1. Transfer learning di rete usando dataset BUSI -> Viene male, predice sempre beningo (train_nn_prediction)
+1b. CNN da zero per dataset BUSI  (train_nn_scratch)
+1c. CNN Inception V3 per feature extraction + Classifier [BUONO, 85% o più]
+[ ] da fare: salvare modello e renderlo easy per la prediction
+
+2. Rete per segmentation
+https://divamgupta.com/image-segmentation/2019/06/06/deep-learning-semantic-segmentation-keras.html
+https://github.com/divamgupta/image-segmentation-keras
+
+
+3. Usando le segmentazioni pyradiomics? -> Modello SVM o RandomForest
